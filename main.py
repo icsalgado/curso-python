@@ -1,29 +1,14 @@
-#Funções
-def aula ():#cria função
-    print('aula de funções')
+#tuplas
+tupla = (25, 26.9, "Fulano")
+indice = 0
+while (indice < len(tupla)):
+    print(tupla[indice])
+    indice = indice+1
 
-def naula ():
-    print('aula x')
+numeros = (1, 2, 3, 4, 5, 'numero')
+for sequencia in numeros:
+    print(sequencia)
 
-aula()#chama função
-naula()
-
-def cliente (nome):#função com parametro
-    print('Ola, ',nome)
-
-cliente("Mundo")#chama função com argumento
-
-def entrada (user):
-    print("obrigado ", user)
-
-snome = input('Qual seu nome?')#entrada de dados
-
-entrada(snome)#chama função com argumento recolhido da entrada
-
-def soma (num1, num2):#função dinamica
-    resultado = num1 + num2
-    return resultado
-
-print(soma(5,6))
-
-
+sec1 = (1, 2, 3, 4, 5, 6, 7)
+sec2 = sec1[0:5]#posição inicial concatena posição final
+print(sec2)
