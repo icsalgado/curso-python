@@ -1,16 +1,8 @@
-#Programação orientada a objetos: Classes
+class circulos:
+    raio = 25.8
 
-class pessoa:
-    cidade = "padrão"
-    carro = "padrão"
-    moto = "padrão"
-
-class homem:
-    nome = "padrão"
-    sexo = "M"
-    caorCabelo = "padrão"
-
-class mulher:
-    nome = "padrão"
-    sexo = "F"
-    caorCabelo = "padrão"
+    def calculaArea(self):#self é um argumento de metodos
+        self.area = 3.14*(self.raio**2)
+    def calculaVolume(self, altura):
+        self.volume = 3.4*(self.raio**2)*altura
+        
