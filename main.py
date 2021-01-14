@@ -1,19 +1,9 @@
-#Listas utilizam colchetes e tuplas utilizam parenteses
+dicionario = {"Daniel":10,"Rafael":20,"Marcos":"Antonio"}
 
-lista = ["Daniel", "Leticia", "Fernando", "Maria"]
-lista2 = [10,20,30,40]
+print(dicionario)
+print(dicionario["Daniel"])#dicionários trabalham com strings para indicar uma posição
 
-soma = lista + lista2 #independente do tipo de variavel
-
-print(lista)
-print(lista[2])
-print(lista2)
-print(soma)
-
-for elemento in soma:#exibe em lista vertical
-    print(elemento)
-
-if("Daniel" in soma):#busca detalhada
-    print("contém")
-else:
-    print("não contém")
+help(print)#exibe informações da função
+help(dir)
+help(type)
+help(str)
