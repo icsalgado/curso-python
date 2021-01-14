@@ -1,17 +1,19 @@
-#tuplas
-tupla = (25, 26.9, "Fulano")
-indice = 0
-while (indice < len(tupla)):
-    print(tupla[indice])
-    indice = indice+1
+#Listas utilizam colchetes e tuplas utilizam parenteses
 
-numeros = (1, 2, 3, 4, 5, 'numero')
-for sequencia in numeros:
-    print(sequencia)
+lista = ["Daniel", "Leticia", "Fernando", "Maria"]
+lista2 = [10,20,30,40]
 
-sec1 = (1, 2, 3, 4, 5, 6, 7)
-sec2 = sec1[0:5]#posição inicial concatena posição final
-print(sec2)
+soma = lista + lista2 #independente do tipo de variavel
 
-nome = "Fulano Fulaninho de Tal"
-print (nome[0:8])#cordas strings
+print(lista)
+print(lista[2])
+print(lista2)
+print(soma)
+
+for elemento in soma:#exibe em lista vertical
+    print(elemento)
+
+if("Daniel" in soma):#busca detalhada
+    print("contém")
+else:
+    print("não contém")
