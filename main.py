@@ -1,12 +1,10 @@
-#Estruturas de repetição
-### WHILE ###
-num = 0
-while (num < 10):#parenteses não são obrigatórios
-    print("Numero atual ", num)
-    num = num + 1 #incremento para evitar loop infinito
-### FOR ###
-print("tabuada")
-for i in range(10):#conta 10 repetições
-    for j in range(10):
-        print(i, " x ", j, "|", i*j)
-    print("__________________")
+#Métodos de strings len|lower|upper
+
+curso = "Curso de Programação em Python"
+
+
+print(len(curso))#conta os caracteres, inclusive espaços em branco
+print(curso.lower())#altera o caractere em caixa alta para caixa baixa
+print(curso.upper())#altera tudo para caixa alta
+
+
