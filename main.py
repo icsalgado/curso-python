@@ -1,9 +1,16 @@
-dicionario = {"Daniel":10,"Rafael":20,"Marcos":"Antonio"}
+#Programação orientada a objetos: Classes
 
-print(dicionario)
-print(dicionario["Daniel"])#dicionários trabalham com strings para indicar uma posição
+class pessoa:
+    cidade = "padrão"
+    carro = "padrão"
+    moto = "padrão"
 
-help(print)#exibe informações da função
-help(dir)
-help(type)
-help(str)
+class homem:
+    nome = "padrão"
+    sexo = "M"
+    caorCabelo = "padrão"
+
+class mulher:
+    nome = "padrão"
+    sexo = "F"
+    caorCabelo = "padrão"
