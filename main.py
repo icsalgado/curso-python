@@ -12,3 +12,6 @@ for sequencia in numeros:
 sec1 = (1, 2, 3, 4, 5, 6, 7)
 sec2 = sec1[0:5]#posição inicial concatena posição final
 print(sec2)
+
+nome = "Fulano Fulaninho de Tal"
+print (nome[0:8])#cordas strings
